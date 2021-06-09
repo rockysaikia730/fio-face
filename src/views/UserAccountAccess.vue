@@ -4,43 +4,16 @@
   </div>
   <div class="root">
     <div>
-      <h1>Create user account</h1>
+      <h1>Get to your account</h1>
       <div class="email_container">
         <input
-          placeholder="Email address"
+          placeholder="Email address or Phone number"
           type="email"
           name="email"
           id="id_email"
         />
       </div>
-      <div class="phone_container">
-        <input
-          placeholder="Phone number"
-          type="text"
-          name="phone"
-          id="id_phone"
-        />
-      </div>
 
-      <div class="name_container">
-        <div class="first_name_container">
-          <input
-            placeholder="First name"
-            type="text"
-            name="full_name"
-            id="id_full_name"
-          />
-        </div>
-
-        <div class="last_name_container">
-          <input
-            placeholder="Last name"
-            type="text"
-            name="last_name"
-            id="id_last_name"
-          />
-        </div>
-      </div>
       <div class="password_container">
         <input
           placeholder="Password"
@@ -50,9 +23,9 @@
         />
       </div>
       <div style="margin-top: 5%; margin-bottom: 2%">
-        Already with us? <router-link to="/accounts/user/access">Sign In</router-link>
+         <router-link to="">Forgot password</router-link>
       </div>
-      <button type="button">Create account</button>
+      <button type="button">Get my account</button>
     </div>
   </div>
 </template>
