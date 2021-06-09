@@ -23,7 +23,7 @@
         />
       </div>
       <div style="margin-top: 5%; margin-bottom: 2%">
-         <router-link to="">Forgot password</router-link>
+         <router-link to="">Can't remember password</router-link>
       </div>
       <button type="button">Get my account</button>
     </div>
@@ -84,9 +84,9 @@ h1 {
 }
 
 .root {
-  max-width: 390px;
+  max-width: 410px;
   margin: 3% auto;
-  padding: 0 4% 0 4%;
+  padding: 0 6% 0 6%;
   text-align: left;
 }
 
@@ -103,7 +103,7 @@ h1 {
 
 input {
   width: 100%;
-  border: 1px solid rgb(194, 194, 194);
+  border: 1px solid rgb(212, 212, 212);
   border-radius: 5px;
   font-size: 1.1rem;
   outline: none;

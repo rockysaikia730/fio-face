@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 body{
-  background-color: white;
+  background-color: rgba(245, 245, 245, 0.164);
   margin: 0;
   padding: 0;
   font-family: 'Hind Siliguri', sans-serif;

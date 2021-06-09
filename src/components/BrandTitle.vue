@@ -12,5 +12,6 @@ export default {
 <style scoped>
 header{
     font-family: 'Staatliches', cursive;
+    font-weight: 500;
 }
 </style>

@@ -3,6 +3,7 @@
     <BrandTitle style="font-size: 1.5rem"></BrandTitle>
   </div>
   <div class="root">
+      
     <div>
       <h1>Create user account</h1>
       <div class="email_container">
@@ -50,7 +51,7 @@
         />
       </div>
       <div style="margin-top: 5%; margin-bottom: 2%">
-        Already with us? <router-link to="/accounts/user/access">Sign In</router-link>
+        Already with us? <router-link to="/accounts/user/access">Get to you account</router-link>
       </div>
       <button type="button">Create account</button>
     </div>
@@ -70,6 +71,7 @@ export default {
 * {
   font-family: "Hind Siliguri", sans-serif;
 }
+
 a{
     text-decoration: none;
     color: #000;
@@ -111,9 +113,9 @@ h1 {
 }
 
 .root {
-  max-width: 390px;
+  max-width: 410px;
   margin: 3% auto;
-  padding: 0 4% 0 4%;
+  padding: 0 6% 0 6%;
   text-align: left;
 }
 
@@ -130,7 +132,7 @@ h1 {
 
 input {
   width: 100%;
-  border: 1px solid rgb(194, 194, 194);
+  border: 1px solid rgb(212, 212, 212);
   border-radius: 5px;
   font-size: 1.1rem;
   outline: none;
