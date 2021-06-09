@@ -1,10 +1,10 @@
 <template>
-  <div style="margin-bottom: 5%; margin-top: 1%" class="brand_container">
+  <div style="margin-bottom: 5%; margin-top: 25px" class="brand_container">
     <BrandTitle style="font-size: 1.5rem"></BrandTitle>
   </div>
   <div class="root">
     <div>
-      <h1>Create new account</h1>
+      <h1>Create user account</h1>
       <div class="email_container">
         <input
           placeholder="Email address"
@@ -49,8 +49,8 @@
           id="id_password"
         />
       </div>
-      <div>
-          <p>Already with us? Sign In</p>
+      <div style="margin-top: 5%; margin-bottom: 2%">
+        Already with us? <router-link to="">Sign In</router-link>
       </div>
       <button type="button">Create account</button>
     </div>
@@ -67,11 +67,18 @@ export default {
 </script>
 
 <style scoped lang="scss">
+* {
+  font-family: "Hind Siliguri", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
 h1 {
   margin-bottom: 5%;
   font-size: 2rem;
   font-weight: 500;
-  font-family: "Hind Siliguri", sans-serif;
 }
 
 .email_container {
@@ -126,16 +133,20 @@ input {
   border: 1px solid gainsboro;
   border-radius: 5px;
   font-size: 1.1rem;
-  font-family: "Hind Siliguri", sans-serif;
+  outline: none;
+
+  &:focus {
+    border: 1px solid rgb(139, 139, 139);
+  }
 }
 
 button {
   border: none;
   border-radius: 5px;
   padding: 2% 7% 2% 7%;
-  margin-top: 4%;
+  margin-top: 2%;
   font-size: 1.4rem;
   color: white;
-  background-color: gold;
+  background-color: rgb(250, 213, 4);
 }
 </style>
