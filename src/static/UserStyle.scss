@@ -1,0 +1,83 @@
+* {
+    font-family: "Hind Siliguri", sans-serif;
+  }
+  
+  a{
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+  }
+  h1 {
+    margin-bottom: 5%;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  
+ .contact_root{
+   margin-bottom: 8%;
+   
+ }
+
+ .contact_inp_container{
+  display: flex;
+  margin-top: 3%;
+}
+
+.contact_inp, .password_inp{
+  padding: 2% 4% 2% 4%;
+}
+
+.full_name_root{
+  margin-bottom: 25%;
+}
+.first_name_inp_container{
+  display: flex;
+  float: left;
+  width: 48%;
+}
+
+.last_name_inp_container{
+  display: flex;
+  float: right;
+  width: 48%;
+}
+
+.full_name_inp{
+  padding: 4% 9% 4% 9%;
+}
+
+.password_inp_container{
+  display: flex;
+}
+
+
+.root {
+  max-width: 410px;
+  margin: 3% auto;
+  padding: 0 6% 0 6%;
+  text-align: left;
+}
+
+
+input {
+  width: 100%;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 5px;
+  font-size: 1.1rem;
+  outline: none;
+
+  &:focus {
+    border: 1px solid rgb(139, 139, 139);
+  }
+}
+
+
+button{
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 3%;
+  font-size: medium;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 145, 0);
+}
