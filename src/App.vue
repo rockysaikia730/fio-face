@@ -1,6 +1,28 @@
 <template>
-  <router-view/>
+  <div>
+  
+      <select v-model="currentlang" @click="$store.commit('changelang', currentlang)"> 
+        <option value="en">English</option>
+        <option value="as">Assamese</option>
+        <option value="bn">Bengali</option>
+        <option value="hn">Hindi</option>
+      </select>
+      
+    <router-view/>
+  </div
 </template>
+
+<script>
+
+export default {
+  data() {
+    return {
+      currentlang: 'en'
+    }
+  }
+}
+
+</script>
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&display=swap');
