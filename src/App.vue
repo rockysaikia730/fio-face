@@ -1,12 +1,20 @@
+<!--
+1)Use 'lang' as prefix to change the languages
+eg:- lang.name  
+2)Insert all the const string in the locales file
+-->
+
 <template>
   <div>
-  
+      
       <select v-model="currentlang" @click="$store.commit('changelang', currentlang)"> 
         <option value="en">English</option>
         <option value="as">Assamese</option>
         <option value="bn">Bengali</option>
         <option value="hn">Hindi</option>
       </select>
+      
+      <p>This is an example: {{ lang.name }}</p>
       
     <router-view/>
   </div
